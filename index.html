@@ -51,7 +51,7 @@
                     </ul>
                   </div>
                   <img src="images/logo-header.png" alt="navbar logo">
-                  <a class="btn btn-ghost text-xl">Browse<span style="color: yellow;">4</span>Pets</a>
+                  <a class="hidden md:flex btn btn-ghost text-xl">Browse<span style="color: yellow;">4</span>Pets</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -71,16 +71,157 @@
         <div class="banner relative w-full lg:px-14">
           <img class="w-full" src="images/cat-big.png" alt="cat on website banner">
           <div class="absolute inset-0 w-3/4 flex flex-col justify-start items-start p-7 pl-5 md:pl-10">
-              <h1 class="font-bold text-l md:text-3xl lg:text-5xl">Pamper Your Pet,<br>Because They Deserve<br>the Best</h1>
+              <h1 class="font-bold text-l md:text-5xl">Pamper Your Pet,<br>Because They Deserve<br>the Best</h1>
               <p class="text-sm text-gray-600 mt-5">Discover a world of treats, toys, and essentials handpicked for your furry friends.<br> Shop now and make tails wag with joy!</p>
               <button class="btn btn-warning w-28 mt-5 md:w-36">Find a Pet</button>
           </div>
         </div>
     </header>
-    <main class="lg:px-10">
-      <section></section>
+    <main>
+      <!--Browse by Categories Section-->
+      <section class="px-7 lg:px-14">
+        <h3 class="mt-20 mb-5 font-bold text-l md:text-xl lg:text-3xl">Browse By Categories</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center text-center">
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/dog-cartoon.png" alt="dog icon">
+            <h5 class="font-bold mb-2">Dog</h5>
+            <p>3 Items</p>
+          </div>
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/fish-cartoon.png" alt="fish icon">
+            <h5 class="font-bold mb-2">Fish</h5>
+            <p>3 Items</p>
+          </div>
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/cat-cartoon.png" alt="cat icon">
+            <h5 class="font-bold mb-2">Cat</h5>
+            <p>3 Items</p>
+          </div>
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/bird-cartoon.png" alt="bird icon">
+            <h5 class="font-bold mb-2">Bird</h5>
+            <p>3 Items</p>
+          </div>
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/rabbit-cartoon.png" alt="rabbit icon">
+            <h5 class="font-bold mb-2">Rabbit</h5>
+            <p>2 Items</p>
+          </div>
+          <div class="bg-[#F9DF8A] flex flex-col px-3 py-5 rounded-lg items-center mr-4 mb-4">
+            <img class="rounded-full p-6 bg-white mb-5" src="images/mouse-cartoon.png" alt="small pet icon">
+            <h5 class="font-bold mb-2">Small Pet</h5>
+            <p>3 Items</p>
+          </div>
+        </div>
+      </section>
+      <!--Trending Pet Products Section-->
+      <section class="bg-[#FEF6EB] mt-14 py-8 px-7 lg:px-14">
+        <h3 class="font-bold text-l mb-2 md:text-xl lg:text-3xl">Trending Pet Products</h3>
+        <div class="flex flex-col lg:flex-row justify-between">
+          <div class="bg-[#F9DF8A] lg:w-1/2 h-[380px] my-3 p-6 rounded-lg relative">
+            <h4 class="font-bold text-2xl">T- Shirt for Dogs</h4>
+            <p class="my-5">Discover a world of treats, toys, and<br> essentials handpicked for </p>
+            <button class="btn">Shop Now</button>
+            <img class="absolute pt-14 top-0 right-0" src="images/cute-pet-small.png" alt="dog image">
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:ml-8">
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+            <div class="hidden md:flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+              <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
+              <div class="flex flex-col">
+                <h5 class="mb-2"></i>4.5</h5>
+                <p class="font-bold">Pet Bed</p>
+                <small>$39.99</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Everyday Low Price Section-->
+      <section class="mt-14 py-8 px-7 lg:px-14">
+        <h3 class="font-bold text-l mb-5 md:text-xl lg:text-3xl">Everyday Low Price</h3>
+        <div class="flex flex-col lg:flex-row">
+          <div class="lg:w-2/3 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] md:flex flex-row mb-5 py-14 pt-14 rounded-xl">
+            <div class="flex flex-col pl-6 md:pl-14 lg:justify-center text-left">
+              <p class="hidden md:flex text-lg">Under Price</p>
+              <h4 class="mb-4 font-bold text-3xl">Pet Grooming Mitt</h4>
+              <p class="text-white hidden md:flex font-bold text-xl">(Easy Hair Removal)</p>
+              <h2 class="font-bold text-5xl">$7.99</h2>
+            </div>
+            <img src="images/cute-dog-mid.png">
+          </div>
+          <div class="lg:w-1/3 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex flex-col mb-5 ml-6 py-10 pt-10 rounded-xl">
+            <h4 class="mb-4 font-bold text-3xl">T-Shirt for Dogs</h4>
+            <h2 class="font-bold text-5xl text-yellow-400">$7.99</h2>
+            <img class="p-5 w-3/10" src="images/cute-pet-mid.png">
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
+    <foote class="bg-[#FFDC26]">
         
     </footer>
 
