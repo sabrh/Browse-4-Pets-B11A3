@@ -64,7 +64,12 @@
                   </ul>
                 </div>
                 <div class="navbar-end hidden md:flex">
-                  <a><img class="cursor-pointer w-6 mr-4" src="images/bell.png" alt="notification bell icon"></a>
+                  <a>
+                    <span class="relative flex size-3">
+                      <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+                      <span class="relative inline-flex size-3 rounded-full bg-sky-500"></span>
+                    </span>
+                    <img class="cursor-pointer w-6 mr-4" src="images/bell.png" alt="notification bell icon"></a>
                   <a><img class="cursor-pointer w-6 mr-4" src="images/loupe.png" alt="search icon"></a>
                   <a class="btn btn-outline btn-warning mr-4">Login</a>
                   <a class="btn btn-warning mr-4">Register</a>
@@ -128,7 +133,7 @@
             <img class="absolute pt-14 top-0 right-0" src="images/cute-pet-small.png" alt="dog image">
           </div>
           <div class="grid grid-cols-2 md:grid-cols-3 lg:ml-8">
-            <div class="flex flex-row bg-white m-1 p-2 md:p-3 md:m-2 rounded-lg md:pr-12">
+            <div class="flex flex-row bg-white m-1 p-2 md:p-2 md:m-2 rounded-lg md:pr-12">
               <img class="bg-[#FEF6EB] p-3 w-16 h-16 md:w-16 md:h-16 mr-2" src="images/pet-couch.png">
               <div class="flex flex-col">
                 <h5 class="mb-2"></i>4.5</h5>
@@ -204,7 +209,7 @@
         </div>
       </section>
       <!--Everyday Low Price Section-->
-      <section class="mt-14 py-8 px-7 lg:px-14">
+      <section class="mt-14 py-8 px-7 lg:px-14 mb-40">
         <h3 class="font-bold text-l mb-5 md:text-xl lg:text-3xl">Everyday Low Price</h3>
         <div class="flex flex-col lg:flex-row">
           <div class="lg:w-2/3 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] md:flex flex-row mb-5 py-14 pt-14 rounded-xl">
@@ -224,7 +229,21 @@
         </div>
       </section>
     </main>
-    <footer class="footer bg-[#F9DF8A] p-14">
+    <!--Newsletter Card-->
+    <div class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 sm:-translate-y-1/3 md:-translate-y-1/2 card card-side bg-[#FEF6EB] shadow-xl justify-center w-full max-w-xs py-6">
+      <figure>
+        <img class="pl-11" src="images/cute-pet-small.png" alt="small dog">
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Get Pawsome News!</h2>
+        <p>Exclusive training tips, ticks, product deals and more.</p>
+        <input type="text" placeholder="Enter your Email..." class="input input-bordered w-full max-w-xs" />
+        <div class="card-actions justify-start">
+        <button class="btn btn-warning">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-[#F9DF8A] p-14 pt-[200px]">
       <nav class="flex flex-col space-y-2">
         <div class="flex flex-row items-center space-x-4">
             <img src="images/logo-footer.png" alt="footer logo" class="w-12 h-auto">
